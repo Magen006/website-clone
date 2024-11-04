@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.intro-section-bg {
+    background-image: linear-gradient(to right, #323f4b, #000);
+    padding: 10px;
+    height: 100vh;
+}
+
+.logo-img-sm {
+    height: 45px;
+}
+
+.logo-img {
+    height: 60px;
+}
+
+.by-nxt {
+    margin-left: 120px;
+    font-family: "Lato";
+    font-size: 15px;
+    color: #fff;
+}
+
+.by-nxt-sm {
+    margin-left: 80px;
+    font-size: 13px;
+}
+
+.description {
+    color: #ffffff;
+    font-family: "Lato";
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.description-sm {
+    font-size: 18px;
+}
+
+.two-k-worth {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.about {
+    color: #a7e63c;
+}
+
+.button {
+    height: 45px;
+    width: 400px;
+    font-family: "Roboto";
+    border-radius: 10px;
+    color: #fff;
+    padding-top: 10px;
+    border: 0;
+    background-color: #2563ea;
+    font-weight: 600;
+}
+
+.button-sm {
+    height: 45px;
+    width: 100%;
+}
+
+.trailer-button {
+    height: 45px;
+    width: 400px;
+    font-family: "Roboto";
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+.trailer-button-sm {
+    height: 45px;
+    width: 100%;
+}
+
+
+
+
+.people-section {
+    background-image: linear-gradient(to top, #330867, #30cfd0, #330867);
+}
+
+.people-section-heading {
+    font-family: "Lato";
+    font-size: 45px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+}
+
+.people-section-description {
+    font-family: "Lato";
+    font-size: 20px;
+    color: #7CB9E8;
+    text-align: center;
+}
+
+.people-card {
+    background-color: #002D62;
+    border-radius: 15px;
+    height: 100%;
+}
+
+.people-image {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.people-card-heading {
+    font-family: "Lato";
+    font-size: 24px;
+    font-weight: 600;
+    color: #F0F8FF;
+}
+
+.video-duration {
+    color: #B9D9EB;
+}
+
+.people-name {
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 600;
+    color: #B9D9EB;
+}
+
+.people-card-link {
+    font-family: "Lato";
+    font-size: 15px;
+    color: #1F75FE;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.modal-body {
+    background-color: #323f4b;
+}
+
+.modal-header {
+    background-color: #323f4b;
+}
+
+.modal-footer {
+    background-color: #323f4b;
+}
+
+.modal-title {
+    font-family: "Lato";
+    font-size: 30px;
+    font-weight: 600;
+    color: #F0F8FF;
+}
+
+.experience-company-img-ms {
+    height: 50px;
+    width: 100px;
+}
+
+.experience-company-img-krish {
+    height: 35px;
+    width: 90px;
+}
+
+.experience-company-img-nxt {
+    height: 80px;
+    width: 80px;
+}
+
+.people-modal-description {
+    font-family: "Lato";
+    font-size: 18px;
+    color: #F0F8FF;
+}
+
+.people-modal-image {
+    height: 90px;
+    width: 90px;
+}
+
+.modal-body {
+    border-radius: 15px;
+    padding: 35px;
+}
+
+.master-which-text {
+    font-family: "Lato";
+    font-size: 16px;
+    color: #F0F8FF;
+}
+
+.people-experience-text {
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 600;
+    color: #F0F8FF;
+}
+
+.what-you-learn-text {
+    font-family: "Lato";
+    font-size: 20px;
+    color: #F0F8FF;
+}
+
+.carousel-control-next {
+    right: 95%;
+}
+
+.carousel-control-prev {
+    left: 95%;
+}
+
+.people-section-heading-sm {
+    font-family: "Lato";
+    font-size: 26px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+}
+
+.people-section-description-sm {
+    font-family: "Lato";
+    font-size: 15px;
+    color: #7CB9E8;
+    text-align: center;
+}
+
+.people-card-heading-sm {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 600;
+    color: #F0F8FF;
+}
+
+
+
+
+.companies-card {
+    background-image: linear-gradient(to left, #333333, #000, #000, #000, #000, #000, #333333);
+}
+
+.company-imgs-sm {
+    height: 25px;
+    margin: 20px;
+}
+
+.company-imgs {
+    height: 50px;
+    margin: 20px;
+}
+
+.company-heading-sm {
+    color: #ffffff;
+    font-family: "Lato";
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.company-heading {
+    color: #ffffff;
+    font-family: "Lato";
+    font-size: 45px;
+    font-weight: 600;
+}
+
+
+
+
+
+.linkedin-post-section {
+    background-image: linear-gradient(to left, #000, #0f172a, #0f172a, #0f172a, #000);
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+
+.linkedin-section-heading-sm {
+    font-family: "Lato";
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.linkedin-section-heading {
+    font-family: "Lato";
+    font-size: 46px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.feedback-emoji {
+    height: 40px;
+    width: 40px;
+}
+
+.linkedin-section-feedback-text {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #e99c22;
+    border: 1px solid #e98445;
+    border-radius: 30px;
+    width: 300px;
+    padding: 5px;
+    background-color: #231e24;
+}
+
+.linkedin-post-card {
+    background-color: #1e293b;
+    border-radius: 5px;
+}
+
+.linkedin-post-people-img {
+    height: 60px;
+    width: 60px;
+}
+
+.linkedin-poster-name-sm {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 600;
+    color: #e1e8ee;
+}
+
+.linkedin-poster-name {
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 600;
+    color: #e1e8ee;
+}
+
+.linkedin-poster-bio-sm {
+    font-family: "Roboto";
+    font-size: 10px;
+    color: #e1e8ee;
+}
+
+.linkedin-poster-bio {
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #e1e8ee;
+}
+
+.linkedin-post-content-sm {
+    font-family: "Roboto";
+    color: #e1e8ee;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.linkedin-post-content {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 400;
+    color: #e1e8ee;
+}
+
+.read-more-link:hover {
+    font-family: "Roboto";
+    cursor: pointer;
+}
+
+.linkedin-logo {
+    height: 40px;
+    width: 40px;
+}
+
+
+.podcast-description-section {
+    background-image: linear-gradient(to left, #0f172a, #13274F, #12208c, #12208c, #13274F, #0f172a);
+}
+
+.podcast-description-section-heading {
+    font-family: "Lato";
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.podcast-description-section-heading-sm {
+    font-family: "Lato";
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.about-podcast {
+    font-family: "Lato";
+    font-size: 24px;
+    color: #fff;
+}
+
+.about-podcast-sm {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.claim-submit {
+    height: 38px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #2563ea;
+    color: #fff;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.free-podcast-section {
+    background-image: linear-gradient(to left, #000, #0f172a, #0f172a, #0f172a, #000);
+}
+
+.free-podcast-heading-sm {
+    color: #fff;
+    font-family: "Lato";
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.free-podcast-heading {
+    color: #fff;
+    font-family: "Lato";
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.lable {
+    color: #fff;
+    font-family: "Lato";
+    font-size: 15px;
+    font-weight: 600;
+}
+
+input {
+    background-color: #324154;
+    border-width: 0;
+    border-radius: 10px;
+    height: 38px;
+    color: white;
+}
+
+input::placeholder {
+    color: #8c9bab;
+    font-family: "Lato";
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+
+
+.star-section {
+    background-image: linear-gradient(to left, #C33764, #1D2671);
+}
+
+.star-text {
+    font-family: "Lato";
+    font-size: 20px;
+    color: #fff;
+}
+
+.star-text-sm {
+    font-family: "Lato";
+    font-size: 15px;
+    color: #fff;
+}
+
+
+
+.footer-section {
+    background-color: #0f172a;
+}
+
+.footer-headings {
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 600;
+    color: #4e667d;
+}
+
+.footer-descriptions {
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #535c6f;
+}
+
+a:hover {
+    color: white;
+}
+
+.hr-line {
+    background-color: #4e667d;
+}
+
+.social-media-logo-fb {
+    height: 30px;
+    width: 30px;
+}
+
+.social-media-logo-insta {
+    height: 42px;
+    width: 67px;
+    margin-top: 3px;
+}
+
+.social-media-logo-x {
+    height: 45px;
+    width: 45px;
+    margin-top: 3px;
+}
+
+.social-media-logo-linked {
+    height: 40px;
+    width: 40px;
+    margin-top: 3px;
+}
+
+.social-media-logo-yt {
+    height: 80px;
+    width: 100px;
+}
